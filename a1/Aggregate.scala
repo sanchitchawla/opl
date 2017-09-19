@@ -1,4 +1,4 @@
-object Aggregate {
+object Aggregate extends App{
 	
 	def myMin(p: Double, q: Double, r: Double): Double = {
 
@@ -29,8 +29,4 @@ object Aggregate {
 
 	}
 
-	def main(args: Array[String]) = {
-		
-		println(myMed(13,5.0,12))		
-	}
 }

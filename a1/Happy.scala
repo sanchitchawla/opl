@@ -1,6 +1,6 @@
 import scala.math.pow
 
-object Happy {
+object Happy extends App{
 	
 	def sumOfDigitsSquared(n: Int): Int = {
 
@@ -30,11 +30,5 @@ object Happy {
 		if (isHappy(k)) return k
 
 		else return helpHappy(k + 1)
-	}
-
-	def main(args: Array[String]) = {
-
-		println(kThHappy(3))
-
 	}
 }
